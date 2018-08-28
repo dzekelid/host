@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Host
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/google-adsense/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Adsense Merged API - Get Ad Client
+  x-api-slug: adclientsadclientid-get
+  description: Get information about one of the ad clients in the Host AdSense account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
+  humanURL: https://developers.google.com/adsense/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://gmail.api.gallery.streamdata.io

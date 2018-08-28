@@ -16,8 +16,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Host
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
 apis:
@@ -62,6 +62,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/aws-ec2/actiondescribehostreservations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/aws-ec2/actiondescribehostreservations-get-openapi.md
+- name: AWS EC2 API - Describe Hosts
+  x-api-slug: actiondescribehosts-get
+  description: Describes one or more of your Dedicated Hosts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/aws-ec2/actiondescribehosts-get-openapi.md
 - name: AWS EC2 API - Get Host Reservation Purchase Preview
   x-api-slug: actiongethostreservationpurchasepreview-get
   description: |-
@@ -77,6 +88,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/aws-ec2/actiongethostreservationpurchasepreview-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/aws-ec2/actiongethostreservationpurchasepreview-get-openapi.md
+- name: AWS EC2 API - Modify Hosts
+  x-api-slug: actionmodifyhosts-get
+  description: Modify the auto-placement setting of a Dedicated Host.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/aws-ec2/actionmodifyhosts-get-openapi.md
 - name: AWS EC2 API - Purchase Host Reservation
   x-api-slug: actionpurchasehostreservation-get
   description: Purchase a reservation with configurations that match those of your
@@ -91,6 +113,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/aws-ec2/actionpurchasehostreservation-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/aws-ec2/actionpurchasehostreservation-get-openapi.md
+- name: AWS EC2 API - Release Hosts
+  x-api-slug: actionreleasehosts-get
+  description: When you no longer want to use an On-Demand Dedicated Host it can be
+    released.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/host/master/_listings/aws-ec2/actionreleasehosts-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.dynamodb.api.gallery.streamdata.io
